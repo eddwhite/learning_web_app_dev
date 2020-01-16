@@ -2,9 +2,11 @@
 
 This project will be my test area as I learn how to create web apps.
 
-## The Basics
+## Setup
 
-- `> live-server` to launch a development server. Changes will auto-reload
+- Install `nodejs`, `npm` and `live-server` (npm package)
+- Setup your project with some boilerplate. [Get it here](https://html5boilerplate.com/)
+- In a shell, run `> live-server` to launch a development server. Changes will auto-reload
 
 ## Useful Resources
 
