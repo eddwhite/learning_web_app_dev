@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie Trailers</title>
+  </head>
+  <body>
+    <div id="controls">
+        <button onclick="beginTrailers()">Roll the Trailers!</button>
+        <button onclick="resizePlayer()">Resize Player</button>
+        <b id="movietitle">..Loading...</b>
+        <button onclick="skipVideo()">Skip</button>
+        <a href="https://www.themoviedb.org/"><img src="powered-by-tmdb.png" height="30px" /></a>
+    </div>
+
+    <hr />
+
+    <div id="ytplayer"></div>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="movie_trailers.js"></script>
+  </body>
+</html>
